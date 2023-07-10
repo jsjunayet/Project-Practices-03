@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&family=Work+Sans:wght@400;800&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Work Sans; 
+}
+.header{
+    background-image: url("images/banner/banner2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.header-container{
+    display: flex;
+    justify-content: end;
+    padding:80px 200px 80px 0px ;
+
+
+}
+.header-main{
+    width: 40%;
+    text-align: end;
+
+}
+.header-title{
+    color:  #151414;
+    font-size: 65px;
+    font-weight: 700;
+
+}
+.header-description{
+    color:  #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+    padding: 25px 0px 30px;
+
+}
+.header-btn{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    background: #F15B22;
+    padding: 20px 25px; 
+     
+
+}
+.my-container{
+    width: 1000px;
+    margin: 120px auto;
+    
+}
+.my-container-left{
+    background-image: url('images/person.png');
+    background-repeat: no-repeat;
+    background-size:450px;
+    background-position: top left;
+    display: flex;
+    justify-content: end;
+
+}
+.my-container-right{
+    width: 40%;
+    padding: 100px 0px ;
+
+}
+.my-title{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 30px;
+
+}
+.my-description{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+
+}
+.para{
+    padding: 15px 0px 30px;
+}
